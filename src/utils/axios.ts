@@ -3,8 +3,8 @@ import axios from 'axios';
 export const client = axios.create({
   baseURL: process.env.BASE_URL || 'https://mangafire.to',
   headers: {
-    Cookie: "usertype=guest; cf_clearance=GyY43a9QaRKh0K22L9Xlv24BKZpp9lBo7E6O8_.M8ig-1744350198-1.2.1.1-xQttjYiNo3PzhoZ7JWg_j_ZOv4fgNF8WSB7Cqu279eFtN1aNKp1Bpkjz7hIWZ00Fn8MGd0xOi9vVdnq2iOTbW5OzOus8eIdka.DGyXkXDOC0g0o9n2lwDAEa1JYVZPXr4yjEnC5pP4xBBZZecUNwhQ37KNwKC7ECbyu0zssn3PbarKTe4SOUCXfNMNhNJh3xbDMN9xldKgIRZE2R1m8flWYujOg.NX7ByDAblvCNHjEnkGtROfH2gOBm_djbMIU_hr0hYTLxm60Dwu9WsqVjnTzpFCubIF4vU1oo0wa9BMHNxexn1Ut5bM.c93CMOyO.WCPmlx8Y73v7oNJ_yp9Tz.Q1A2M.lDPvMSs1bt.GycI",
-    "User-Agent": "Mozilla/ 5.0(Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari / 537.36",
+    Cookie: "usertype=user; cf_clearance=U9fGUG7H4xZ2udk6KqO0_NOVbIIygPL8xZaoWGLJVsQ-1767906667-1.2.1.1-1AGyHIqrJHblcOSzHcK.Si7qNjXPybSyg9BTYC5_gwnZwVsHYyng4Rmz.Tld8V9zBkjrvPgu_ymU6ljetPxTQwyXw.QWePaqVGiFc0K0Pq097DDUizpPlI0wqmeqygD9KO9UFF1bjI6adB4LgAXF09FXru7Kyvr98rmoUI2o6MXf16sp6zK2tqPp5FbqEq3Lj2R5141t6zyY0kX2OkRF8_q.d7hr78U4q2t6W9rnhCM; session=SdAx3ubyVZu3EJXBUWLfAb0yElBBLUJv3g6YGnTC;", // Replace with your full cookie string!
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",
     Referer: "https://mangafire.to/"
   }
 });
